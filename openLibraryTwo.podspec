@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name         = "openLibraryTwo"
-    s.version      = "1.0.2"
+    s.version      = "1.0.3"
     s.ios.deployment_target = '8.0'
     s.summary      = "测试demo"
     s.description  = <<-DESC
