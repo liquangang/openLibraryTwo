@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name         = "openLibraryTwo"
-    s.version      = "1.0.1"
+    s.version      = "1.0.2"
     s.ios.deployment_target = '8.0'
     s.summary      = "测试demo"
     s.description  = <<-DESC
@@ -11,4 +11,5 @@ Pod::Spec.new do |s|
     s.author       = { "liquangang" => "sgliquangang@163.com" }
     s.source       = { :git => "https://github.com/liquangang/openLibraryTwo.git", :tag => "#{s.version}" }
     s.source_files  = "openLibraryTwo/Test/*"
+    s.dependency   'Masonry'
 end
