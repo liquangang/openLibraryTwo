@@ -11,5 +11,4 @@ Pod::Spec.new do |s|
     s.author       = { "liquangang" => "sgliquangang@163.com" }
     s.source       = { :git => "https://github.com/liquangang/openLibraryTwo.git", :tag => "#{s.version}" }
     s.source_files  = "openLibraryTwo/Test/*"
-    s.dependency   'Masonry'
 end
